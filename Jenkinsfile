@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World'
-                sh 'cd / && sudo mkdir nikita'
+                sh 'cd / && sudo -S mkdir nikita'
                     
             }
         }
